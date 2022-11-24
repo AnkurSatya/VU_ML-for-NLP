@@ -2,4 +2,5 @@
 *.vscode/
 *.csv#
 *.csv
-
+*.txt
+*/__pycache__
