@@ -276,7 +276,7 @@ if __name__ == "__main__":
     datafiles = ["conll2003.train.conll", "conll2003.dev.conll"]
     column_types = ["words", "pos", "chunk", "ne"]
 
-    train_data = read_data(root_filename, [datafiles[0]], column_types)
-    dev_data = read_data(root_filename, [datafiles[1]], column_types)
+    # train_data = read_data(root_filename, [datafiles[0]], column_types)
+    # dev_data = read_data(root_filename, [datafiles[1]], column_types)
 
     explore(root_filename, datafiles, column_types, plot=False)
